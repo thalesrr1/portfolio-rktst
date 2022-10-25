@@ -1,0 +1,14 @@
+* {
+    border: 1px solid brown;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+    list-style: none;
+    box-sizing: border-box;
+}
+body {
+    background-color: #22212C;
+    display: flex;
+    font-family: Merriweather Sans ;
+    font-weight: 400, 500, 700 ;
+}
