@@ -57,17 +57,27 @@ main, aside {}
     align-items: center;
 }
 
+
 .boxlist li {
     list-style: disc;
 }
-#listskills p{
-    background-color: var(--bg-techs);
+
+.list-skills li{
+    text-align: center;
+    justify-content:  ;
     color: black;
+    background-color: var(--bg-techs);
+    display: inline-block;
     border-radius: 8px;
-    display: flex;
-    gap: 10px;
+    gap: 7px;
 }
 
+.skill-item {
+    width: 86px;
+    height: 24px;
+    white-space: nowrap;   
+    text-transform: uppercase;
+}
 #profile-img {
     width: 128px;
     height: 128px;
