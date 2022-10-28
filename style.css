@@ -35,8 +35,6 @@ body {
     padding: 40px;
 }
 
-main, aside {}
-
 .container-aside {
     display: flex;
     flex-direction: column;
