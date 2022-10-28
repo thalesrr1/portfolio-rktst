@@ -57,6 +57,11 @@ body {
     align-items: center;
 }
 
+
+.links-profile {
+    display: flex;
+    
+}
 #profile-img {
     width: 128px;
     height: 128px;
@@ -85,4 +90,18 @@ body {
 
 .boxlist li {
     list-style: disc;
+}
+
+.bxm-mn {
+    display: flex;
+    justify-content: space-between;
+}
+.bxm-projects {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--bg-cards);
+}
+.bxm-header {
+    display: flex ;
+    justify-content: space-between;
 }
