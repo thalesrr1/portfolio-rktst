@@ -6,7 +6,7 @@
 }
 
 * {
-    border: 0px solid brown;
+    border: 1px solid brown;
     margin: 0;
     padding: 0px;
     vertical-align: baseline;
@@ -66,10 +66,9 @@ main, aside {}
     border: 2px solid #00FF00;
 }
 
-
 .list-skills{
     display: flex;
-    justify-content: center;
+    align-items: stretch;
     flex-wrap: wrap;
     gap: 10px
 }
