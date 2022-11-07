@@ -71,8 +71,8 @@ body {
 
 .list-skills{
     display: flex;
-    align-items: stretch;
     flex-wrap: wrap;
+    /* align-items: center; */
     gap: 10px
 }
 
@@ -82,10 +82,10 @@ body {
     color: black;
     background-color: var(--bg-techs);
     border-radius: 12px;
-    white-space: nowrap;   
     text-transform: uppercase;
     height: 24px;
     width: 86px;
+    /* line-height: 0%; */
 }
 
 .boxlist li {
