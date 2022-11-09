@@ -17,7 +17,7 @@
         <div class="boxaside">
           <div class="boxprofile">
             <img 
-              id="profile-img"
+              class="profile-img"
               src="Screenshot from 2022-10-24 23-34-19.png"
               alt="Image Profile"
               />
@@ -28,22 +28,28 @@
         <div class="boxaside links-profile">
           <ul>
             <li>
-              <a href="https://www.google.com.br/maps/@-20.9900844,-42.8589012,7z" target="_blank"><img src="assets/map-pin.svg"  alt="My Location"> Brasil</a>
+              <img src="assets/map-pin.svg"  alt="My Location">
+              <a href="https://www.google.com.br/maps/@-20.9900844,-42.8589012,7z" target="_blank">Brasil</a>
             </li>
             <li>
-              <img src="assets/briefcase.svg" alt="My Job"> Freelance
+              <img src="assets/briefcase.svg" alt="My Job">
+              <a>Freelance</a> 
             </li>
             <li>
-              <a href="https://github.com/thalesrr1" target="_blank"><img src="assets/git-branch.svg"  alt="My Github"> thalesrr1</a>
+              <img src="assets/git-branch.svg"  alt="My Github">
+              <a href="https://github.com/thalesrr1" target="_blank">thalesrr1</a>
             </li>
             <li>
-              <a href="https://www.linkedin.com/in/thales-tavaress/" target="_blank"><img src="assets/linkedin.svg"  alt="My Linkedin"> thales-tavares</a>
+              <img src="assets/linkedin.svg"  alt="My Linkedin">
+              <a href="https://www.linkedin.com/in/thales-tavaress/" target="_blank"> thales-tavares</a>
             </li>
             <li>
-              <a href="mailto:thalestavares.r@gmail.com"><img src="assets/mail.svg"  alt="My Email"> thalestavares.r@gmail.com</a>
+              <img src="assets/mail.svg"  alt="My Email">
+              <a href="mailto:thalestavares.r@gmail.com">thalestavares.r@gmail.com</a>
             </li>
             <li>
-              <a href="http://instagram.com/thales" target="_blank"><img src="assets/instagram.svg"  alt="My Instagram"> thalesb.t</a>
+              <img src="assets/instagram.svg"  alt="My Instagram">
+              <a href="http://instagram.com/thales" target="_blank">thalesb.t</a>
             </li>
           </ul>
         </div>
@@ -93,11 +99,11 @@
     <!-- -->
     <main>
       <div class="boxmain">
-        <section class="bxm-projects">
-          <Header class="bxm-header">
+        <section id="bxm-projects">
+          <header class="bxm-header">
               <h2>My Projects</h2>
               <p>Veja todos</p>
-          </Header>
+          </header>
           <main class="bxm-mn">
             <div class="bxm-proj">
               <header class="bxm-mn-header">
@@ -130,22 +136,22 @@
                 </div>
             </div>
           </main><!--end main:bxm-mn-->
-        </section> <!--end section:bxm-projects-->
-        <section>
-          <div class="">
-            <Header class="">
+        </section> <!-- end section:bxm-projects -->
+        <section id="bxm-posts">
+            <Header>
               <h2>Recent Posts</h2>
             </Header>
-          </div>
-          <div class="">
-            <img src="Screenshot from 2022-10-24 23-34-19.png" alt="Image Profile">
+          <main>
+            <img 
+            class="profile-img"
+            src="Screenshot from 2022-10-24 23-34-19.png" alt="Image Profile">
             <div>
               <h3>Add: backgrounds, options color webpage and responsive</h3>
               <p>2 dias atras</p>
               <p>Add: backgrounds, options color webpage and responsive</p>
             </div>
-          </div>
-        </section>
+          </main>
+        </section><!-- end section:bxm-posts -->
       </div> <!--end boxmain -->
     </main>
   </body>
